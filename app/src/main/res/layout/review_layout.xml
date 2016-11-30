@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/pad_5dp"
+        android:layout_marginTop="@dimen/pad_5dp"
+        android:src="@drawable/filled_circle" />
+
+    <TextView
+        android:id="@+id/authotCharacter_tv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/pad_5dp"
+        android:layout_marginTop="@dimen/pad_3dp"
+        android:gravity="center"
+        android:text="A"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/authotName_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="Ashraf Atef"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/txt_20sp" />
+
+        <TextView
+            android:id="@+id/reviewContent_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="film gameed gdeeeeeee dkjnfk kjfd kjuhnf kjhsn kjhdfb kjuhdf"
+            android:textSize="@dimen/txt_18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/linear"
+            android:layout_marginRight="@dimen/pad_15dp"
+            android:layout_marginTop="@dimen/pad_10dp"
+            android:background="@color/gray" />
+        />
+    </LinearLayout>
+</RelativeLayout>

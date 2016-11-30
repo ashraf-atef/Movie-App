@@ -1,0 +1,147 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CoordinatorLayout_out_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <RelativeLayout
+                android:id="@+id/relative"
+                android:layout_width="fill_parent"
+                android:layout_height="250dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:id="@+id/backgroundMovieImg"/>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/card_img_shadow"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="@dimen/pad_10dp">
+
+                    <TextView
+                        android:id="@+id/title_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Superba Food"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/date_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/pad_3dp"
+                        android:layout_marginTop="@dimen/pad_3dp"
+                        android:text="Restaurant Food"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_12sp" />
+
+                    <TextView
+                        android:id="@+id/rate_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="@dimen/pad_3dp"
+                        android:gravity="center"
+                        android:text="1900 S Lincoln Blvd, Venice, Los Angeles"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_12sp" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/mToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+
+
+                >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/back"
+                        android:padding="5dp"
+                        android:layout_marginRight="20dp"
+                        android:id="@+id/backImg"
+                        android:layout_gravity="left"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/share"
+                        android:padding="5dp"
+                        android:id="@+id/shareImg"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="20dp"
+                        />
+
+
+            </android.support.v7.widget.Toolbar>
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="bottom"
+            android:background="?attr/colorPrimary"
+            app:layout_collapseMode="pin"
+            app:tabIndicatorColor="@color/PrimaryColor"
+            app:tabSelectedTextColor="@android:color/white"
+            app:tabTextColor="#EEE" />
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tab_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_fav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/gray_like"
+        android:theme="@style/float_button_white"
+        app:borderWidth="2dp"
+        app:fabSize="normal"
+
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1" android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/home"
+            android:checked="false"
+            android:icon="@drawable/ic_nav2"
+            android:title="@string/nav_home"
+            />
+
+    </group>
+    <group android:id="@+id/grp2" android:checkableBehavior="single" >
+
+    <item
+        android:id="@+id/most_popular"
+        android:checked="false"
+        android:icon="@drawable/ic_nav2"
+        android:title="@string/nav_most_popular" />
+
+</group>
+    <group android:id="@+id/grp3" android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/top_rated"
+            android:checked="false"
+            android:icon="@drawable/ic_nav2"
+            android:title="@string/nav_top_rated" />
+
+    </group>
+    <group android:id="@+id/grp4" android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/favourite"
+            android:checked="false"
+            android:icon="@drawable/ic_nav2"
+            android:title="@string/nav_favourite" />
+
+    </group>
+    <group android:id="@+id/grp5" android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/setting"
+            android:checked="false"
+            android:icon="@drawable/ic_nav2"
+            android:title="@string/nav_setting" />
+    </group>
+</menu>

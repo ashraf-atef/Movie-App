@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#bf0000</color>
+    <color name="colorAccent00">#88FF4081</color>
+
+
+    <color name="PrimaryColor">#ffec384d</color>
+    <color name="PrimaryDarkColor">#1976D2</color>
+
+
+
+    <color name="blue_pressed">#ff0099cc</color>
+    <color name="blue_normal">#ff33b5e5</color>
+    <color name="green_complete">#ff99cc00</color>
+    <color name="purple_progress">#ffaa66cc</color>
+    <color name="red_error">#ffff4444</color>
+
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+
+
+
+    <color name="red_light2">#d0003e</color>
+    <color name="red_light">#E73B4B</color>
+    <color name="red_dark">#952530</color>
+
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_light_text_default">#ff737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_light_text_focused">#ff737373</color>
+    <color name="common_signin_btn_default_background">#ffdd4b39</color>
+    <color name="common_action_bar_splitter">#ffd2d2d2</color>
+    <color name="theme_black">#393939</color>
+    <color name="theme_yellow">#ffffdc00</color>
+    <color name="red_light3">#ffe74c3c</color>
+    <color name="gray_dk">#313031</color>
+    <color name="gray_dk_alpha">#D0313031</color>
+    <color name="white_smoke">#fff7f7f7</color>
+    <color name="white">#fcf7f7</color>
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue_sky">#ff33b5e5</color>
+    <color name="gray">#ff5b5b5b</color>
+    <color name="main_red">#ffec384d</color>
+    <color name="main_red_lt">#fffaa2ac</color>
+    <color name="main_blue_lt">#ff8dc2eb</color>
+    <color name="home_logo_bg">#ffbac4c8</color>
+    <color name="main_grey_dk">#ff666666</color>
+    <color name="main_grey_lt">#e5e5e5</color>
+    <color name="side_menu_bg">#ff353942</color>
+    <color name="side_menu_divider">#ff999999</color>
+</resources>
